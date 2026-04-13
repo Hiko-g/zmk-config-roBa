@@ -91,10 +91,10 @@
 
         FUNCTION {
             bindings = <
-&kp BACKSLASH  &kp AMPS    &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                 &trans         &trans    &trans          &trans     &trans
-&kp TILDE      &kp DOLLAR  &kp PERCENT  &kp CARET             &kp QUESTION           &kp SINGLE_QUOTE       &trans  &kp LESS_THAN  &mkp MB1  &kp UP_ARROW    &mkp MB2   &kp GREATER_THAN
-&kp GRAVE      &kp EXCL    &kp AT       &kp HASH              &kp SLASH              &kp DOUBLE_QUOTES      &trans  &kp HOME       &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp END
-&kp PIPE       &kp MINUS   &kp UNDER    &kp DEL               &kp ENTER              &kp BACKSPACE          &trans  &trans                                              &trans
+&kp PLUS              &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK                             &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp MINUS             &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp COLON          &trans  &kp LESS_THAN         &mkp MB1               &kp UP_ARROW      &mkp MB2           &kp GREATER_THAN
+&kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp SEMI           &trans  &kp HOME              &kp LEFT               &kp DOWN_ARROW    &kp RIGHT          &kp END
+&kp COMMA             &kp NUMBER_0  &kp PERIOD    &kp DEL       &kp ENTER  &kp BACKSPACE      &trans  &trans                                                                            &trans
             >;
         };
 
@@ -111,8 +111,8 @@
             bindings = <
 &kp PLUS              &kp N7        &kp N8        &kp N9        &kp ASTRK                         &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans             &trans
 &kp MINUS             &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SLASH  &kp COLON      &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &kp DOUBLE_QUOTES  &kp BACKSLASH
-&kp N0                &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp SEMI       &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE   &kp PIPE
-&kp NON_US_BACKSLASH  &kp COMMA     &kp PERIOD    &trans        &trans     &trans         &trans  &trans                                                                     &trans
+&kp COMMA             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp SEMI       &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE   &kp PIPE
+&kp NON_US_BACKSLASH  &kp NUMBER_0  &kp PERIOD    &trans        &trans     &trans         &trans  &trans                                                                     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
