@@ -94,16 +94,16 @@
 &kp MINUS     &kp N7     &kp N8     &kp NUMBER_9  &kp PLUS                                                    &kp TILDE      &trans          &mkp MB3        &trans           &kp BACKSPACE
 &kp SLASH     &kp N4     &kp N5     &kp N6        &kp ASTRK  &kp LEFT_BRACKET          &kp RIGHT_BRACKET      &kp AT         &mkp MB1        &kp UP_ARROW    &mkp MB2         &kp DEL
 &kp NUMBER_0  &kp N1     &kp N2     &kp NUMBER_3  &kp DOT    &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp C_AC_HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END
-&kp UNDER     &kp EQUAL  &kp COMMA  &trans        &trans     &trans                    &trans                 &trans                                                          &trans
+&kp UNDER     &kp EQUAL  &kp COMMA  &kp DELETE    &trans     &kp BACKSPACE             &trans                 &trans                                                          &trans
             >;
         };
 
         NUM {
             bindings = <
-&kp MINUS     &kp N7     &kp N8     &kp N9        &kp PLUS                                        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans             &trans
-&kp SLASH     &kp N4     &kp N5     &kp N6        &kp ASTRK  &kp LESS_THAN      &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &kp DOUBLE_QUOTES  &kp BACKSLASH
-&kp NUMBER_0  &kp N1     &kp N2     &kp NUMBER_3  &kp DOT    &kp BACKSLASH      &trans            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE   &kp PIPE
-&kp UNDER     &kp EQUAL  &kp COMMA  &trans        &trans     &trans             &trans            &trans                                                                     &trans
+&kp TAB            &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                                                   &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans     &trans             &trans
+&kp DOUBLE_QUOTES  &kp DOLLAR       &kp PERCENT   &kp CARET             &kp TILDE              &kp LESS_THAN             &kp GREATER_THAN       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp COLON  &kp DOUBLE_QUOTES  &kp BACKSLASH
+&kp SINGLE_QUOTE   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH              &kp QUESTION           &kp LEFT_PARENTHESIS      &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMI   &kp SINGLE_QUOTE   &kp PIPE
+&kp UNDER          &kp LESS_THAN    &kp GT        &trans                &trans                 &trans                    &trans                 &trans                                                                     &trans
             >;
         };
 
@@ -120,8 +120,8 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &mkp MB3  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &trans    &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
